@@ -19,4 +19,108 @@ time, mark, audio, video {
 
  /* Main Code */
 
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+#logo {
+	font-size: 32px;
+	margin-top: 13px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+#icon1 {
+	margin-top: 5px;
+	margin-left: 24px;
+}
+ 
+span {
+	color: silver;
+}
+
+#head {
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	z-index: 5;
+	border-bottom: 0.5px solid silver;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 64px;
+	width: auto;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-top: 22px;
+	margin-right: 24px;
+}
+
+li {
+	list-style-type: none;
+	padding-left: 16px;
+}
+
+.intro {
+	display: flex;
+	padding-top: 96px;
+	background-color: gainsboro;
+	align-items: center;
+}
+
+.i1 {
+	width: 60%;
+	height: auto;
+	margin-left: 24px;
+	margin-bottom: 32px;
+	margin-right: 24px;
+}
+.i2 {
+	width: 40%;
+	height: auto;
+	margin-left: 24px;
+}
+
+button {
+	color: white;
+	background-color: dimgray;
+	width: 55%;
+	height: auto;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 16px;
+	transition: color 0.5s ease-out 0.1s;
+}
+
+h1 {
+	font-family: 'Alata', sans-serif;
+	font-size: 36px;
+	line-height: 1.2;
+	color: dimgray;
+	margin-bottom: 24px;
+}
+
+h2 {
+	font-family: 'Alata', sans-serif;
+	color: dimgray;
+}
+
+h3 {
+	font-family: 'Alata', sans-serif;
+	color: dimgray;
+}
+
+h4 {
+	font-family: 'Alata', sans-serif;
+	font-size: 18px;
+	color: dimgray;
+	margin-bottom: 24px;
+}
  
