@@ -96,7 +96,33 @@ button {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	font-size: 16px;
-	transition: color 0.5s ease-out 0.1s;
+	cursor: pointer;
+	border: 1px solid dimgray;
+}
+
+button:active, button:focus {
+    position: гelative;
+	background: #999;
+	transition: 0.1s ease-out;
+}
+
+.info {
+	display: flex;
+	padding-top: 32px;
+	background-color: white;
+	align-items: center;
+}
+
+.ileft {
+	width: 60%;
+	height: auto;
+	margin-left: 24px;
+	margin-bottom: 32px;
+	margin-right: 24px;
+}
+
+.iright {
+
 }
 
 h1 {
@@ -110,6 +136,12 @@ h1 {
 h2 {
 	font-family: 'Alata', sans-serif;
 	color: dimgray;
+	margin-bottom: 32px;
+}
+
+#h24 {
+	margin-top: 32px;
+	margin-bottom: 24px;
 }
 
 h3 {
@@ -123,4 +155,5 @@ h4 {
 	color: dimgray;
 	margin-bottom: 24px;
 }
+
  
