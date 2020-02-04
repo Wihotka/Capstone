@@ -31,7 +31,7 @@ body {
 	font-family: 'Nanum Gothic', sans-serif;
 }
 
-#icon1 {
+#icon {
 	margin-top: 5px;
 	margin-left: 24px;
 }
@@ -100,12 +100,21 @@ button {
 	font-size: 16px;
 	cursor: pointer;
 	border: 1px solid hsl(0, 0%, 30%);
+	font-size: 1.3vw;
 }
 
 button:active, button:focus {
     position: гelative;
 	background: hsl(0, 0%, 50%);
 	transition: 0.1s ease-out;
+}
+
+#learn1 {
+	font-size: 3vw;
+}
+
+#learn4 {
+	font-size: 1.7vw;
 }
 
 .info {
@@ -131,7 +140,7 @@ button:active, button:focus {
 
 .iright {
 	width: 40%;
-	min-height: auto;
+	height: auto;
 	margin-left: 12px;
 	padding-bottom: 32px;
 	padding-right: 24px;
@@ -150,6 +159,7 @@ button:active, button:focus {
 	display: flex;
 	border-bottom: 1px solid hsl(0, 0%, 85%);
 	align-items: center;
+	max-height: 32%;
 }
 
 .r2 {
@@ -159,6 +169,7 @@ button:active, button:focus {
 	display: flex;
 	border-top: 1px solid hsl(0, 0%, 85%);
 	align-items: center;
+	max-height: 32%;
 }
 
 .r3 {
@@ -167,6 +178,7 @@ button:active, button:focus {
 	padding-top: 16px;
 	display: flex;
 	background-color: hsl(0, 0%, 85%);
+	max-height: 32%;
 }
 
 .r11 {
@@ -344,4 +356,228 @@ footer {
 	display: flex;
 	margin-left: auto;
 	margin-right: 24px;
+}
+
+.nav {
+	cursor: pointer;
+}
+
+#micon {
+	display: none;
+}
+
+.icons {
+	cursor: pointer;
+}
+
+.mimg {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+	
+	#logo, #catalog, #icon {
+		display: none;
+	}
+
+	#micon {
+		display: flex;
+		width: 100%;
+		height: auto;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.intro {
+		flex-direction: column;
+		padding-top: 64px;
+	}
+
+	.i1 {
+		width: 100%;
+		height: auto;
+	}
+
+	.i2 {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	text-align: center;
+	margin-right: 24px;
+	}
+
+	#learn1 {
+		font-size: 10vw;
+		text-align: left;
+		margin-left: 24px;
+	}
+
+	#learn4 {
+		font-size: 6vw;
+		text-align: left;
+		margin-left: 24px;
+	}
+
+	button {
+		width: 100%;
+		height: auto;
+		margin-left: 24px;
+		margin-bottom: 32px;
+		font-size: 5vw;
+	}
+
+	.ileft {
+		display: none;
+	}
+
+	.iright {
+		position: static;
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.img {
+		display: none;
+	}
+
+	.mimg {
+		display: block;
+	}
+
+	.r1 {
+		border: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-right: 16px;
+	}
+
+	.r2 {
+		border: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-right: 16px;
+		padding-top: 32px;
+	}
+
+	.r3 {
+		background-color: inherit;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-right: 16px;
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.r11 {
+		width: 100%;
+		height: auto;
+		padding-bottom: 32px;
+	}
+
+	.r12 {
+		margin-right: auto;
+
+	}
+
+	.hr {
+		font-size: 6vw;
+		padding-bottom: 8px;
+	}
+
+	.pr {
+		font-size: 3vw;
+		padding-bottom: 8px;
+	}
+
+	.start {
+		background-color: hsl(0, 0%, 98%);
+	}
+
+	.hstart {
+		font-size: 10vw;
+		margin-bottom: 16px;
+	}
+	.cfoto {
+		display: none;
+	}
+
+	.cdesc {
+		display: none;
+	}
+
+	.start1, .start2 {
+		flex-direction: column;
+		margin: 0 16px 0 16px;
+		padding: 0;
+	}
+	.start2 {
+		margin-bottom: 32px;
+	}
+
+	.break {
+		display: none;
+	}
+
+	.s1 {
+		background-color: hsl(0, 0%, 85%);
+		cursor: pointer;
+		width: 100%;
+		height: auto;
+		margin-bottom: 8px;
+		padding: 16px 16px 24px 16px;
+		font-size: 4.5vw;
+	}
+
+	.s2 {
+		background-color: hsl(0, 0%, 85%);
+		cursor: pointer;
+		width: 100%;
+		height: auto;
+		margin-bottom: 8px;
+		padding: 16px 16px 24px 16px;
+		font-size: 4.5vw;
+	}
+
+	.s1:active, .s1:focus, .s2:active, .s2:focus {
+		position: гelative;
+		background: hsl(0, 0%, 70%);
+		transition: color 1s ease-in;
+	}
+
+	.oright {
+		display: none;
+	}
+
+	.oleft {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+
+	.ol1 {
+		width: 100%;
+		height: auto;
+	}
+
+	.ol2 {
+		display: none;
+	}
+
+	#foot {
+		display: none;
+	}
+
+	footer {
+		margin-bottom: 16px;
+	}
 }
